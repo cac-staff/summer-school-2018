@@ -3,7 +3,8 @@ layout: markdown
 title: Course list
 ---
 
-{% for post in site.posts %}
+{% assign sorted = (site.posts | sort: 'date') %}
+{% for post in sorted %}
 ## [{{post.title}}]({{post.url}})
 
 {{post.excerpt}}

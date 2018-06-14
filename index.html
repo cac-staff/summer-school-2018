@@ -46,7 +46,8 @@ layout: base
 				<section>
 					<h3>Sample courses</h3>
 					<ul class="alt">
-						{% for post in site.posts limit: 4 %}
+						{% assign sorted = (site.posts | sort: 'date') %}
+						{% for post in sorted limit: 4 %}
 						<li><a href="{{site.basurl}}{{post.url}}">{{post.title}}</a></li>
 						{% endfor %}
 					</ul>
