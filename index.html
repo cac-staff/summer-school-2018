@@ -48,7 +48,7 @@ layout: base
 					<ul class="alt">
 						{% assign sorted = (site.posts | sort: 'date') %}
 						{% for post in sorted limit: 4 %}
-						<li><a href="{{site.basurl}}{{post.url}}">{{post.title}}</a></li>
+						<li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
 						{% endfor %}
 					</ul>
 				</section>
