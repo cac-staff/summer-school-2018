@@ -4,10 +4,11 @@ layout: base
 <section id="banner">
 	<div class="inner">
 		<h2>{{site.title}}</h2>
-		<p>Queen's University</p>
+		<p style="font-size:2em; color: #ffffff;">Queen's University</p>
+		<br>
 		<ul class="actions">
-			<li><a href="#content" class="button big special">Sign Up</a></li>
-			<li><a href="#elements" class="button big alt">Learn More</a></li>
+			<li><a href="{{site.registration}}" class="button big special">Sign Up</a></li>
+			<li><a href="#three" class="button big alt">Learn More</a></li>
 		</ul>
 	</div>
 </section>
@@ -16,27 +17,38 @@ layout: base
 		<div class="row">
 			<div class="8u">
 				<section>
-					<h2>Mollis ut adipiscing</h2>
-					<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-					<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+					<h2>What is the HPC Summer School?</h2>
+					<a href="#" class="image fit"><img src="images/wolfe.jpg" alt="" /></a>
+					<p>
+						The Compute Ontario Summer School on High Performance and Technical
+						Computing is an annual educational event for graduate/undergraduate
+						students, postdocs and researchers who are engaged in a compute
+						intensive research. Held geographically in the west, centre and east
+						of the province of Ontario, the summer school provides attendees
+						with the opportunity to learn and share knowledge and experience in
+						high performance and technical computing on modern HPC platforms.
+					</p>
 				</section>
 			</div>
 			<div class="4u">
 				<section>
-					<h3>Magna massa blandit</h3>
-					<p>Feugiat amet accumsan ante aliquet feugiat accumsan. Ante blandit accumsan eu amet tortor non lorem felis semper. Interdum adipiscing orci feugiat penatibus adipiscing col cubilia lorem ipsum dolor sit amet feugiat consequat.</p>
+					<h3>How to sign up</h3>
+					<p>
+						The summer school is a free event and does not require a CAC account
+						to register. You can register for either a full one-week courseload
+						or individual workshops. To sign up, just click the button below!
+					</p>
 					<ul class="actions">
-						<li><a href="#" class="button alt">Learn More</a></li>
+						<li><a href="{{site.registration}}" class="button alt">Register</a></li>
 					</ul>
 				</section>
 				<hr />
 				<section>
-					<h3>Ante sed commodo</h3>
+					<h3>Sample courses</h3>
 					<ul class="alt">
-						<li><a href="#">Erat blandit risus vis adipiscing</a></li>
-						<li><a href="#">Tempus ultricies faucibus amet</a></li>
-						<li><a href="#">Arcu commodo non adipiscing quis</a></li>
-						<li><a href="#">Accumsan vis lacinia semper</a></li>
+						{% for post in site.posts limit: 4 %}
+						<li><a href="{{post.url}}">{{post.title}}</a></li>
+						{% endfor %}
 					</ul>
 				</section>
 			</div>
