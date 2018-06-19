@@ -3,3 +3,5 @@ subtitle: Compute Ontario Summer School on Technical and High-Performance Comput
 registration: /summer-school-2018/registration-closed.html
 author: Centre for Advanced Computing
 baseurl: /summer-school-2018
+# or future-dated posts won't show up
+future: true

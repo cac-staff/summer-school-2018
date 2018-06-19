@@ -4,5 +4,5 @@ title: Venue
 ---
 
 This year’s summer school will take place at Queen’s University in Kingston.
-<!--TODO add room details later-->
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2859.1155446723296!2d-76.49732988449962!3d44.225279479105964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1522122004496" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+All classes are in Chernoff Hall, rooms 211 and 213.
+<iframe width="800" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-76.50582790374757%2C44.22062265784498%2C-76.49166584014894%2C44.22793437017687&amp;layer=mapnik&amp;marker=44.224278627528825%2C-76.49874687194824" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=44.22428&amp;mlon=-76.49875#map=17/44.22428/-76.49875">View Larger Map</a></small>
