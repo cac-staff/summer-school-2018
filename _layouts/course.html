@@ -2,8 +2,8 @@
 layout: markdown
 ---
 
-<p><b>Room:</b> {{page.room}} // 
-  <b>Date:</b> {{page.date}} //
+<p><b>Room:</b> {{page.room}} //
+  <b>Date:</b> {{page.date | date: "%-d %B @ %-I %P"}} //
   <b>Instructor:</b> {{page.instructor}}, {{page.institution}}</p>
 
 {{content}}
