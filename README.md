@@ -6,3 +6,4 @@ git clone https://github.com/cac-staff/summer-school-2018.git
 cd summer-school-2018
 jekyll serve
 ```
+The courses are in the _post directory
