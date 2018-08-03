@@ -14,3 +14,11 @@ them difficult to follow. This ‘crash course’ introduces new and emerging
 sequencing technologies and provides hands-on training with major data types and
 analysis pipelines with a focus on whole-genome assembly, transcriptome (RNA)
 sequencing, and DNA metabarcoding.
+
+## Materials
+
+[Course materials](https://colauttilab.github.io/HPC2018.html) for this session.
+
+Files used in the tutorial are located at `/global/project/workshop/bioinfo` on the Frontenac cluster. 
+You will need to login with your course account to access them!
+
